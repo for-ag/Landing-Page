@@ -1,0 +1,31 @@
+body * {
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 250px;
+}
+
+.nav_links {
+    display: flex;
+    color: #E5E7EB;
+    flex-grow: 1;
+    justify-content: flex-end;
+    gap: 24px;
+    margin-right: 250px;
+    list-style-type: none;
+}
