@@ -12,6 +12,7 @@ header {
     background-color: #1F2937;
     align-items: center;
     margin-left: 0px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -28,4 +29,51 @@ header {
     gap: 24px;
     margin-right: 250px;
     list-style-type: none;
+}
+
+.container_1 {
+    display: flex;
+    background-color: #1F2937;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_1 h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.container_2 {
+    margin-left: 250px;
+    height: 250px;
+    width: 350px;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.container_3 {
+    margin-right: 250px;
+    background-color: #f9faf8;
+    height: 230px;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgrey;
+    color: white
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    border: none;
+    color: #f9faf8;
 }
